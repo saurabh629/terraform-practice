@@ -1,6 +1,6 @@
 
 
-**Step 1.** *set AWS credentials
+**Step 1.** *set AWS credentials*
 
 *export AWS_ACCESS_KEY_ID="AKIA45ONG6SOCJR7SMLY"
 export AWS_SECRET_ACCESS_KEY="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"*
