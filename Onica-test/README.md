@@ -38,3 +38,19 @@ set prior to starting Terraform workflow
     ```Terraform apply tf_plan```  
 **Step 5.** After use of the environment destroy the Terraform managed infrastructure   
     ```Terraform destroy```  
+
+## Validation Test ##  
+
+* The output received for curl with Header key-value pair of "Host: `www.test.com`" is hello test.
+  The output received for curl with Header key-value pair of "Host: `ww2.test.com`" is hello test2.  
+
+```
+curl -H "Host: www.test.com"  <ALB dns>
+
+hello test  
+curl -H "Host: ww2.test.com" < ALB dns >
+
+hello test2
+```
+
+
