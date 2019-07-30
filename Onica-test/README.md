@@ -30,12 +30,16 @@ set prior to starting Terraform workflow
       e.g.    
 ```export AWS_ACCESS_KEY_ID="AKIA45ONG6SOCJR7SMLY"```  
 ```export AWS_SECRET_ACCESS_KEY="Sl205XJROQTbNTLnsnKwB7gkonFALygv2zjaHqIQ"```  
+
 **Step 2.** Initialize Terraform providers and modules  
     ```Terraform init```  
+
 **Step 3.** Create the execution plan to deploy the resources and save it file tf_plan  
     ```Terraform plan -out=tf_plan```  
+
 **Step 4.** Apply the changes required to reach the desired state of the configuration   
     ```Terraform apply tf_plan```  
+
 **Step 5.** After use of the environment destroy the Terraform managed infrastructure   
     ```Terraform destroy```  
 
